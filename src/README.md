@@ -9,7 +9,7 @@ The first sets the balance to a given value.
 The second is a no-argument constructor and it sets the balance to 0. 
 ** setters and getters. These methods allow accessing the private data fields. 
 ** withdraws an amount of money from the account if the balance is sufficient. 
-** deposits an amount of money in the account
+** deposits an amount of money in the account  
 The second type of accounts extends the basic Bank Account and may have some extra data fields and operations. It is called SavingsBankAccount. This account requires the user to keep a minimum amount of money in the account, which is called the minimum balance, as long as the account is open. It also requires him to make deposits that are not less than 100 a time. 
 So, it has the following additional data field:
 ** minimumBalance - This minimum balance takes a default value of 1000 BGN. It has the following methods plus those inherited from the parent class:
